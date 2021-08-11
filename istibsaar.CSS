@@ -1,0 +1,89 @@
+html{
+    background-color: rgb(247, 31, 31);
+    font-family: al-kanz;
+}
+
+
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(200, 201, 238);
+    padding-left: 40px;
+    padding-right: 40px;
+   box-sizing: border-box;
+   text-align: right;
+   font-size: xx-large;
+}
+
+header h1{
+    color: rgb(73, 10, 10);
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+ul{
+    color: maroon;
+}
+
+/*site-nav*/
+.site-nav a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    padding: 5px 10px;
+    border: 3px solid rgb(253, 2, 2);
+    font-size: small;
+    
+}
+
+.site-nav a:hover{
+    background-color: rgb(247, 104, 104);
+}
+/*end site-nav*/
+/*main points*/
+section{
+    width: 610px;
+    margin: 0%;
+}
+.wrapper{
+    width: 850px;
+    min-height: 250px;
+    position: relative;
+    border: 2px solid white;
+    border-left: 40px solid white;
+    padding: 15px;
+    display: inline-block;
+}
+
+.wrapper h2{
+    color: blue;
+    letter-spacing: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: -30px;
+    transform: rotate(-270deg);
+    transform-origin: 0 0;
+}
+
+.wrapper h3{
+    color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: -30px;
+    transform: rotate(-270deg);
+    transform-origin: 0 0;
+}
+
+.wrapper h4{
+    color:blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: -30px;
+    transform: rotate(-270deg);
+    transform-origin: 0 0;
+}
